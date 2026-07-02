@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #D8EEFF;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: white;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 4px 5px 5px slategrey;
+  gap: 5px;
+}
+.top{
+  color: #448EEC;
+  text-align: center;
+  margin: 5px 0;
+}
+.input-button{
+  display: flex;
+  gap: 15px;
+  width: 100%;
+}
+.input-tugas{
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  box-sizing: border-box;
+  flex: 1;
+}
+.input-tugas:focus{
+  outline: 2px solid #448EEC;
+}
+.tambah-tugas{
+  background-color: #3183EA;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.3s;
+  
+}
+.tambah-tugas:hover{
+  transform: scale(0.95);
+  background-color: #3A79C8;
+}
+.isi-list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  border-bottom: 1.5px dotted grey;
+}
+.isi-list p{
+  margin: 0 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.button-wrap {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  
+}
+
+.edit-button{
+  border: none;
+  display: block;
+  background-color: #448EEA;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  transition: 0.3s;
+}
+.edit-button:hover{
+  transform: scale(0.95);
+  background-color: #2D7CE0;
+}
+.hapus-button{
+  border: none;
+  display: block;
+  background-color: #EA4336;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  transition: 0.3s;
+}
+.hapus-button:hover{
+  transform: scale(0.95);
+  background-color: #CD2E21;
+}
+.done{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #448EEC;
+}
+.done i{
+  font-size: 16px;
+}
+.done.checked {
+  border: 2px solid #448EEC;
+  background-color: #448EEC; 
+  color: white;
+}
+.isi-list.checked p{
+  text-decoration: line-through;
+  color: grey;
+  margin: 0 10px;
+  font-weight: 500;
+  padding: 0px;
+  font-size: 15px;
+}
+.list-gaada {
+  text-align: center;
+  color: #313131BF;
+  margin: 0px;
+}
